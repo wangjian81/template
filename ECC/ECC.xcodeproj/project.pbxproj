@@ -37,6 +37,14 @@
 		EC31696B27BBB3C100C4EA5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8B9E1427BB8FF300019DB9 /* Assets.xcassets */; };
 		EC31696E27BBB46F00C4EA5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8B9E1427BB8FF300019DB9 /* Assets.xcassets */; };
 		EC31696F27BBB46F00C4EA5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8B9E1427BB8FF300019DB9 /* Assets.xcassets */; };
+		EC31697727BBB77000C4EA5E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31697627BBB77000C4EA5E /* Config.swift */; };
+		EC31697927BBB78600C4EA5E /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31697827BBB78600C4EA5E /* Core.swift */; };
+		EC31697B27BBB79000C4EA5E /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31697A27BBB79000C4EA5E /* General.swift */; };
+		EC31697D27BBB79D00C4EA5E /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31697C27BBB79D00C4EA5E /* Community.swift */; };
+		EC31697F27BBB7B500C4EA5E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31697E27BBB7B500C4EA5E /* View.swift */; };
+		EC31698127BBB7C400C4EA5E /* StudyPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31698027BBB7C400C4EA5E /* StudyPlan.swift */; };
+		EC31698327BBB7DB00C4EA5E /* StudyRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31698227BBB7DB00C4EA5E /* StudyRecord.swift */; };
+		EC31698527BBB7E900C4EA5E /* Teaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31698427BBB7E900C4EA5E /* Teaching.swift */; };
 		EC8B9E2327BB8FF300019DB9 /* ECCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B9E2227BB8FF300019DB9 /* ECCTests.swift */; };
 		EC8B9E2D27BB8FF300019DB9 /* ECCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B9E2C27BB8FF300019DB9 /* ECCUITests.swift */; };
 		EC8B9E2F27BB8FF300019DB9 /* ECCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B9E2E27BB8FF300019DB9 /* ECCUITestsLaunchTests.swift */; };
@@ -49,6 +57,14 @@
 		EC31697027BBB51400C4EA5E /* ECC_dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ECC_dev.plist; sourceTree = "<group>"; };
 		EC31697227BBB51C00C4EA5E /* ECC_pro.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ECC_pro.plist; sourceTree = "<group>"; };
 		EC31697427BBB52300C4EA5E /* ECC_stg.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ECC_stg.plist; sourceTree = "<group>"; };
+		EC31697627BBB77000C4EA5E /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		EC31697827BBB78600C4EA5E /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		EC31697A27BBB79000C4EA5E /* General.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
+		EC31697C27BBB79D00C4EA5E /* Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
+		EC31697E27BBB7B500C4EA5E /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		EC31698027BBB7C400C4EA5E /* StudyPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPlan.swift; sourceTree = "<group>"; };
+		EC31698227BBB7DB00C4EA5E /* StudyRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyRecord.swift; sourceTree = "<group>"; };
+		EC31698427BBB7E900C4EA5E /* Teaching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teaching.swift; sourceTree = "<group>"; };
 		EC8B9E0B27BB8FEB00019DB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC8B9E0D27BB8FEB00019DB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EC8B9E0F27BB8FEB00019DB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -180,6 +196,7 @@
 		EC8B9E3C27BB90F900019DB9 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				EC31697A27BBB79000C4EA5E /* General.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -187,6 +204,7 @@
 		EC8B9E3D27BB90F900019DB9 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
+				EC31697627BBB77000C4EA5E /* Config.swift */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -212,6 +230,7 @@
 		EC8B9E4027BB90F900019DB9 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				EC31697827BBB78600C4EA5E /* Core.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -231,6 +250,7 @@
 		EC8B9E4827BB957800019DB9 /* Community */ = {
 			isa = PBXGroup;
 			children = (
+				EC31697C27BBB79D00C4EA5E /* Community.swift */,
 			);
 			path = Community;
 			sourceTree = "<group>";
@@ -238,6 +258,7 @@
 		EC8B9E4927BB957800019DB9 /* StudyRecord */ = {
 			isa = PBXGroup;
 			children = (
+				EC31698227BBB7DB00C4EA5E /* StudyRecord.swift */,
 			);
 			path = StudyRecord;
 			sourceTree = "<group>";
@@ -254,6 +275,7 @@
 		EC8B9E4B27BB957800019DB9 /* StudyPlan */ = {
 			isa = PBXGroup;
 			children = (
+				EC31698027BBB7C400C4EA5E /* StudyPlan.swift */,
 			);
 			path = StudyPlan;
 			sourceTree = "<group>";
@@ -261,6 +283,7 @@
 		EC8B9E4C27BB957800019DB9 /* TeachingMaterial */ = {
 			isa = PBXGroup;
 			children = (
+				EC31698427BBB7E900C4EA5E /* Teaching.swift */,
 			);
 			path = TeachingMaterial;
 			sourceTree = "<group>";
@@ -276,6 +299,7 @@
 		EC8B9E4E27BB95C200019DB9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EC31697E27BBB7B500C4EA5E /* View.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -486,8 +510,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC31697F27BBB7B500C4EA5E /* View.swift in Sources */,
+				EC31698527BBB7E900C4EA5E /* Teaching.swift in Sources */,
+				EC31697B27BBB79000C4EA5E /* General.swift in Sources */,
 				EC31690F27BBA9ED00C4EA5E /* ViewController.swift in Sources */,
+				EC31697727BBB77000C4EA5E /* Config.swift in Sources */,
+				EC31698327BBB7DB00C4EA5E /* StudyRecord.swift in Sources */,
 				EC31691027BBA9ED00C4EA5E /* AppDelegate.swift in Sources */,
+				EC31698127BBB7C400C4EA5E /* StudyPlan.swift in Sources */,
+				EC31697927BBB78600C4EA5E /* Core.swift in Sources */,
+				EC31697D27BBB79D00C4EA5E /* Community.swift in Sources */,
 				EC31691127BBA9ED00C4EA5E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
